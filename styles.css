@@ -48,6 +48,24 @@ nav ul a:hover { color: var(--text); text-decoration: none; }
   text-align: center;
   border-bottom: 1px solid var(--border);
 }
+.hero-app-icon {
+  width: 96px; height: 96px;
+  border-radius: 22px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto; margin-right: auto;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.app-store-badge {
+  height: 44px;
+  display: block;
+}
 .hero h1 {
   font-size: 44px; font-weight: 800; letter-spacing: -0.02em;
   margin-bottom: 16px;
@@ -78,7 +96,6 @@ nav ul a:hover { color: var(--text); text-decoration: none; }
 .cta.ghost {
   background: transparent; color: var(--text);
   border: 1px solid var(--border-2);
-  margin-left: 8px;
 }
 
 section { padding: 60px 0; border-bottom: 1px solid var(--border); }
